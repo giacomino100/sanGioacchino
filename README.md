@@ -1,7 +1,7 @@
 # Sito Parrocchia San Gioacchino
 
 ## Pagine
-- Home `https://www.sangioacchinopartinico.it`
+- Home https://www.sangioacchinopartinico.it
 - Parrocchia
 - Orari delle Messe
 - Ufficio Parrocchiale
