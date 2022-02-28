@@ -4,14 +4,14 @@
 - Home https://www.sangioacchinopartinico.it
 - Parrocchia: consiglio pastarale parrocchiale https://www.sangioacchinopartinico.it/consiglioPastorale.html
 - Parrocchia: consiglio per gli affari economici https://www.sangioacchinopartinico.it/consiglioAE.html
-- Orari delle Messe
-- Ufficio Parrocchiale
-- Sacramenti: Iniziazione cristiana: eucaristia e cresima (percorso ordinario)
-- Sacramenti: matrimonio
+- Orari delle Messe https://www.sangioacchinopartinico.it/orariMesse.html
+- Ufficio Parrocchiale https://www.sangioacchinopartinico.it/up.html
+- Sacramenti: Iniziazione cristiana: eucaristia e cresima (percorso ordinario) https://www.sangioacchinopartinico.it/inizCristiana.html
+- Sacramenti: matrimonio https://www.sangioacchinopartinico.it/matrimonio.html
 - Gruppi: gruppo coppie (Eternamente ora)
 - Gruppi: Azione Cattolica
 - Gruppi : Regina della Pace
-- Liturgia
-- Dove siamo
-- Documenti
-- Contatti
+- Liturgia https://www.sangioacchinopartinico.it/liturgia.html
+- Dove siamo https://www.sangioacchinopartinico.it/doveSiamo.html
+- Documenti https://www.sangioacchinopartinico.it/documenti.html
+- Contatti https://www.sangioacchinopartinico.it/contatti.html
