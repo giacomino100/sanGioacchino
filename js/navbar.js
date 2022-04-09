@@ -75,7 +75,6 @@ class mynavbar extends HTMLElement {
 
             let link = document.createElement('a');
             link.classList.add('nav-link', 'dropdown-toggle');
-            link.href = x.link;
             link.id = 'sacramentiDropdown';
             link.role = "button"
             link.setAttribute('data-bs-toggle', "dropdown")
