@@ -1,20 +1,20 @@
 # Sito Parrocchia San Gioacchino
 
 ## Pagine
-- Home https://www.sangioacchinopartinico.it
+- Home https://www.sangioacchinopartinico.it (online)
 - Parrocchia:
-  - consiglio pastorale parrocchiale https://www.sangioacchinopartinico.it/consiglioPastorale.html
-  - consiglio per gli affari economici https://www.sangioacchinopartinico.it/consiglioAE.html
-- Orari delle Messe https://www.sangioacchinopartinico.it/orariMesse.html
-- Ufficio Parrocchiale https://www.sangioacchinopartinico.it/up.html
+  - consiglio pastorale parrocchiale https://www.sangioacchinopartinico.it/consiglioPastorale.html (online)
+  - consiglio per gli affari economici https://www.sangioacchinopartinico.it/consiglioAE.html (online)
+- Orari delle Messe https://www.sangioacchinopartinico.it/orariMesse.html (online)
+- Ufficio Parrocchiale https://www.sangioacchinopartinico.it/up.html (online)
 - Sacramenti:
   - Iniziazione cristiana: eucaristia e cresima (percorso ordinario) https://www.sangioacchinopartinico.it/inizCristiana.html
   - Matrimonio https://www.sangioacchinopartinico.it/matrimonio.html
 - Gruppi:
-  - gruppo coppie (Eternamente ora)
+  - Caritas
   - Azione Cattolica
   - Regina della Pace
-- Liturgia https://www.sangioacchinopartinico.it/liturgia.html
-- Dove siamo https://www.sangioacchinopartinico.it/doveSiamo.html
+- Coro https://www.sangioacchinopartinico.it/liturgia.html (online)
+- Dove siamo https://www.sangioacchinopartinico.it/doveSiamo.html (online)
 - Documenti https://www.sangioacchinopartinico.it/documenti.html
-- Contatti https://www.sangioacchinopartinico.it/contatti.html
+- Contatti https://www.sangioacchinopartinico.it/contatti.html (online)

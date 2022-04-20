@@ -41,7 +41,8 @@ class mynavbar extends HTMLElement {
 
 
         const sections = [
-          {label: "Home", link: 'http://sangioacchinopartinico.it/index.html'},
+          {label: "Home",
+           link: 'http://sangioacchinopartinico.it/index.html'},
           {type: "dropdown",
           label: "Parrocchia",
           link: 'http://sangioacchinopartinico.it/parrocchia.html',
@@ -57,11 +58,11 @@ class mynavbar extends HTMLElement {
                         {label: "Il Matrimonio", link: "https://sangioacchinopartinico.it/matrimonio.html"}]
           },
           {type: "dropdown", label: "Gruppi", link: 'http://sangioacchinopartinico.it/gruppi.html',
-           subsections: [{label: "Gruppo Coppie (Eternamente ora)", link: 'http://sangioacchinopartinico.it/gruppoCoppie.html'},
-                         {label: "Azione Cattolica", link:"http://sangioacchinopartinico.it/azioneCattolica.html"},
-                         {label: "Regina della Pace", link: "http://sangioacchinopartinico.it/reginaDellaPace.html"}]
+           subsections: [{label: "Azione Cattolica", link: 'http://sangioacchinopartinico.it/azioneCattolica.html'},
+                         {label: "Regina della Pace", link: "http://sangioacchinopartinico.it/reginaDellaPace.html"},
+                         {label: "Caritas", link:"http://sangioacchinopartinico.it/caritas.html"},]
           },
-          {label: "Liturgia", link: 'http://sangioacchinopartinico.it/liturgia.html'},
+          {label: "Coro", link: 'http://sangioacchinopartinico.it/liturgia.html'},
           {label: "Dove siamo", link: 'http://sangioacchinopartinico.it/doveSiamo.html'},
           {label: "Documenti", link: 'http://sangioacchinopartinico.it/documenti.html'},
           {label: "Contatti", link: 'http://sangioacchinopartinico.it/contatti.html'}]
@@ -89,7 +90,12 @@ class mynavbar extends HTMLElement {
             x.subsections.forEach( y => {
               let subSection = document.createElement('li');
               let subLink = document.createElement('a');
-              subLink.classList.add('dropdown-item', 'disabled');
+
+              if(y.label == "Consiglio pastorale" || y.label == "Consiglio per gli affari economici")
+                subLink.classList.add('dropdown-item');
+              else
+                subLink.classList.add('dropdown-item', 'disabled');
+
               subLink.href = y.link;
               var x = window.matchMedia("(max-width: 768px)")
               if(x.matches)
@@ -103,7 +109,10 @@ class mynavbar extends HTMLElement {
             list.appendChild(section)
           } else {
               let link = document.createElement('a');
-              link.classList.add('nav-link', 'disabled');
+              if(x.label == "Orari delle Messe" || x.label == "Home" || x.label == "Coro" || x.label == "Dove siamo" || x.label == "Contatti")
+                link.classList.add('nav-link');
+              else
+                link.classList.add('nav-link', 'disabled');
               link.href = x.link;
               link.innerHTML = x.label;
 
