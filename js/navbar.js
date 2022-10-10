@@ -59,7 +59,6 @@ class mynavbar extends HTMLElement {
           },
           {type: "dropdown", label: "Gruppi", link: 'http://sangioacchinopartinico.it/gruppi.html',
            subsections: [{label: "Azione Cattolica", link: 'http://sangioacchinopartinico.it/azioneCattolica.html'},
-                         {label: "Regina della Pace", link: "http://sangioacchinopartinico.it/reginaDellaPace.html"},
                          {label: "Caritas", link:"http://sangioacchinopartinico.it/caritas.html"},]
           },
           {label: "Coro", link: 'http://sangioacchinopartinico.it/liturgia.html'},
