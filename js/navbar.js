@@ -108,7 +108,7 @@ class mynavbar extends HTMLElement {
             list.appendChild(section)
           } else {
               let link = document.createElement('a');
-              if(x.label == "Orari delle Messe" || x.label == "Home" || x.label == "Coro" || x.label == "Dove siamo" || x.label == "Contatti")
+              if(x.label == "Orari delle Messe" || x.label == "Home" || x.label == "Coro" || x.label == "Dove siamo" || x.label == "Contatti" || x.label == "Documenti")
                 link.classList.add('nav-link');
               else
                 link.classList.add('nav-link', 'disabled');
