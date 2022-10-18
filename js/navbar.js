@@ -82,7 +82,7 @@ class mynavbar extends HTMLElement {
             link.innerHTML = x.label
 
             let subList = document.createElement('ul')
-            subList.style = "margin-top:8px";
+            subList.style = "margin-top: 8px";
             subList.classList.add("dropdown-menu", "dropdown-menu-lg-start")
             subList.setAttribute("aria-labelledby", "sacramentiDropdown")
 

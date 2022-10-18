@@ -15,7 +15,7 @@
     <!--link rel="icon" href="img/favicon.png" type="image/png" /-->
     <link rel=”apple-touch-icon” href=”https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/50/000000/external-church-city-buildings-smashingstocks-flat-smashing-stocks-3.png” />
     <!--- Components in JS ---->
-    <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript" src="nav.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
     <title>Parrocchia San Gioacchino - Partinico</title>
@@ -23,7 +23,21 @@
   <body style="font-family: 'Roboto', sans-serif">
 
     <my-header></my-header>
-    <my-navbar></my-navbar>
+
+
+    <hr>
+
+    <nav class="navbar navbar-expand-lg navbar-dark w-100" style="background-color: #a3320b;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <my-nav></my-nav>
+
+        </div>
+      </div>
+    </nav>
 
     <!--Immagini-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
