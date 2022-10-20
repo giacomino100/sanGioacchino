@@ -15,31 +15,36 @@
     <!--link rel="icon" href="img/favicon.png" type="image/png" /-->
     <link rel=”apple-touch-icon” href=”https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/50/000000/external-church-city-buildings-smashingstocks-flat-smashing-stocks-3.png” />
     <!--- Components in JS ---->
-    <script type="text/javascript" src="nav.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
     <title>Parrocchia San Gioacchino - Partinico</title>
   </head>
   <body style="font-family: 'Roboto', sans-serif">
 
-    <hr>
-
-    <nav class="navbar navbar-expand-lg navbar-dark w-100" style="background-color: #a3320b;">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <my-nav></my-nav>
-
+    <my-header></my-header>
+    <my-navbar></my-navbar>
+    <br>
+    <div class="container">
+        <h1>Galleria foto</h1>
+        <p>Home / Galleria</p>
+        <hr>
+        <div class="card" style="width: 18rem;">
+            <img src="gallery/primo_incontro_acr/acr1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Primo incontro ACR</h5>
+              <p>08/10/2022</p>
+              <a href="https://www.sangioacchinopartinico.it/gallery/primo_incontro_acr.html" class="btn btn-primary">Apri</a>
+            </div>
         </div>
-      </div>
-    </nav>
+    </div>
+
+    
+    <my-footer></my-footer>
 
   </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="http://common.static.glauco.it/common/cookielaw/cookielaw.js" type="text/javascript" async></script><link href="http://common.static.glauco.it/common/cookielaw/cookielaw.css" rel="stylesheet" type="text/css"/>
   </body>
 </html>

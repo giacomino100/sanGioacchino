@@ -47,7 +47,7 @@ class mynav extends HTMLElement {
                         label: "Il Matrimonio", 
                         link: "https://sangioacchinopartinico.it/matrimonio.html"
                     }]
-            },*/
+            },
             {
                 type: "dropdown", 
                 label: "Gruppi", 
@@ -61,7 +61,7 @@ class mynav extends HTMLElement {
                         label: "Caritas", 
                         link:"http://sangioacchinopartinico.it/caritas.html"
                     }]
-            },
+            },*/
             {
                 label: "Coro", 
                 link: 'http://sangioacchinopartinico.it/liturgia.html'
@@ -69,11 +69,11 @@ class mynav extends HTMLElement {
             {
                 label: "Dove siamo", 
                 link: 'http://sangioacchinopartinico.it/doveSiamo.html'
-            },
+            },/*
             {
                 label: "Documenti", 
                 link: 'http://sangioacchinopartinico.it/documenti.html'
-            },
+            },*/
             {
                 label: "Contatti", 
                 link: 'http://sangioacchinopartinico.it/contatti.html'

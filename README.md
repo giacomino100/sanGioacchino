@@ -18,3 +18,8 @@
 - Dove siamo https://www.sangioacchinopartinico.it/doveSiamo.html (online)
 - Documenti https://www.sangioacchinopartinico.it/documenti.html
 - Contatti https://www.sangioacchinopartinico.it/contatti.html (online)
+
+
+## Link utili
+
+- Link generazione immagini: "https://source.unsplash.com/random/200"
