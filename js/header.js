@@ -34,7 +34,7 @@ class myHeader extends HTMLElement {
       containerLogo.classList.add("d-none", "d-md-block", "col-2");
 
       var img = document.createElement("img");
-      img.src = "https://sangioacchinopartinico.it/assets/logoDiocesi.jpg"
+      img.src = "https://sangioacchinopartinico.it/assets/logoDiocesi.jpeg"
       img.style.width = '40%'
 
       var labelLogo = document.createElement("p");

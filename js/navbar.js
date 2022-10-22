@@ -58,8 +58,8 @@ class mynavbar extends HTMLElement {
                         {label: "Il Matrimonio", link: "https://sangioacchinopartinico.it/matrimonio.html"}]
           },
           {type: "dropdown", label: "Gruppi", link: 'http://sangioacchinopartinico.it/gruppi.html',
-           subsections: [{label: "Azione Cattolica", link: 'http://sangioacchinopartinico.it/azioneCattolica.html'},
-                         {label: "Caritas", link:"http://sangioacchinopartinico.it/caritas.html"},]
+           subsections: [{label: "Azione Cattolica", link: 'http://sangioacchinopartinico.it/gruppi/azionecattolica/'},
+                         {label: "Caritas", link:"http://sangioacchinopartinico.it/gruppi/caritas.html"},]
           },
           {label: "Coro", link: 'http://sangioacchinopartinico.it/liturgia.html'},
           {label: "Dove siamo", link: 'http://sangioacchinopartinico.it/doveSiamo.html'},
@@ -108,7 +108,7 @@ class mynavbar extends HTMLElement {
             list.appendChild(section)
           } else {
               let link = document.createElement('a');
-              if(x.label == "Orari delle Messe" || x.label == "Home" || x.label == "Coro" || x.label == "Dove siamo" || x.label == "Contatti" || x.label == "Documenti")
+              if(x.label == "Orari delle Messe" || x.label == "Home" || x.label == "Coro" || x.label == "Dove siamo" || x.label == "Contatti" || x.label == "Documenti" || x.label == "Gruppi")
                 link.classList.add('nav-link');
               else
                 link.classList.add('nav-link', 'disabled');
